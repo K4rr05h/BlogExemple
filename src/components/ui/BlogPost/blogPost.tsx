@@ -12,7 +12,7 @@ export default function BlogPost( { date, title, description, like, onClick } : 
 
   return (
     <button
-        className="text-stone-100 w-full mt-4 border-1 rounded-md border-stone-800 p-5 cursor-pointer active:border-red-200 focus:border-2 focus:border-red-400 "
+        className="text-stone-100 w-full mt-4 border-1 rounded-md border-stone-800 p-5 cursor-pointer active:border-red-200 focus:border-2 focus:border-red-400"
         onClick={onClick}
     >
         <div className="flex justify-between">

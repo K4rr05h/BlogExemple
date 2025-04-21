@@ -21,10 +21,10 @@ function App() {
   }
 
   return (
-    <>
+    <div className="h-screen flex flex-col">
       <Header onSearch={setSearchQuery} />
       <Body posts={filteredPosts} onLike={toggleLike} />
-    </>
+    </div>
   )
 }
 
