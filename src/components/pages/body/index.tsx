@@ -12,7 +12,7 @@ type BodyProps = {
 
 export default function index({ posts, onLike }: BodyProps) {
   return (
-    <div className="bg-stone-950 flex-grow px-24 justify-items-center pt-4 lg:px-60 md:px-48 sm:px-40">
+    <div className="bg-stone-950 flex-grow px-10 justify-items-center pt-4 lg:px-44 md:px-32 sm:px-20">
       {posts.map((post, index) => (
         <BlogPost 
           key={index}
